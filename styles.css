@@ -69,6 +69,9 @@ a {
     text-transform: uppercase;
     border: none;
 }
+#submit:hover{
+  background-color: darkorange;
+}
 
 .options {
     display: flex;
@@ -108,16 +111,47 @@ a {
 .card {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     gap: 20px;
     border: 1px solid black;
-    padding: 10px;
+    padding: 0px;
     width: 304px;
     height: 309px;
+}
+
+
+.card-title{
+  background-color: gray;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 50px;
+  margin: 0px;
+  font-size: 10px;
 }
 
 .card ul {
     list-style-type: none;
 }
 
+h3{
+  font-size: 35px;
+}
+
+.card-btn{
+  width: 100px;
+  padding: 10px;
+  background-color: #f1c40f;
+  font-weight: 900;
+  text-transform: uppercase;
+  border: none;
+  border-radius: 2px;
+  color: black;
+  margin-bottom: 20px;
+}
+
+.card-btn:hover{
+  background-color: darkorange;
+}
